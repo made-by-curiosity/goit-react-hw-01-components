@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { ProfileCard } from './Profile.styled';
 import { UserInfo } from 'components/UserInfo/UserInfo';
 import { UserStatistics } from 'components/UserStatistics/UserStatistics';
 
@@ -12,7 +13,7 @@ export const Profile = ({
   },
 }) => {
   return (
-    <div>
+    <ProfileCard>
       <UserInfo
         username={username}
         tag={tag}
@@ -24,7 +25,7 @@ export const Profile = ({
         views={views}
         likes={likes}
       ></UserStatistics>
-    </div>
+    </ProfileCard>
   );
 };
 
