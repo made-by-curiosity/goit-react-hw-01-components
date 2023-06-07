@@ -8,7 +8,7 @@ export const UserStatisticsList = styled.ul`
 `;
 
 export const UserStatisticsItem = styled.li`
-  height: 50px;
+  height: 80px;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
