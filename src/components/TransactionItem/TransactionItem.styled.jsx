@@ -1,9 +1,17 @@
 import styled from '@emotion/styled';
 
 export const HistoryRow = styled.tr`
-  border: 1px solid black;
+  background-color: #fff;
+
+  &:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 `;
 
 export const HistoryCell = styled.td`
-  border: 1px solid black;
+  padding: 16px;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
 `;

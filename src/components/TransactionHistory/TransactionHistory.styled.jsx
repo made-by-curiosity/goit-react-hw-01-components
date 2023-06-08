@@ -1,14 +1,24 @@
 import styled from '@emotion/styled';
 
 export const HistoryTable = styled.table`
-  /* border: 1px solid black; */
-  border-collapse: collapse;
+  width: 600px;
+
+  text-align: center;
+
+  border-collapse: separate;
+  border-spacing: 1px;
+  border-radius: 5px;
 `;
 
-export const HistoryHead = styled.thead``;
+export const HistoryHead = styled.thead`
+  background-color: rgb(74, 152, 211);
+`;
 
-export const HistoryHeadRow = styled.tr``;
+export const HistoryHeadRow = styled.tr`
+  color: #fff;
+  text-transform: uppercase;
+`;
 
 export const HistoryHeaderName = styled.th`
-  /* border: 1px solid black; */
+  padding: 16px;
 `;
